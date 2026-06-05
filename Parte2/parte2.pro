@@ -6,21 +6,19 @@ CONFIG -= qt
 SOURCES += \
         LZ78.cpp \
         RLE.cpp \
+        archivos.cpp \
         encriptacion.cpp \
-        escritura.cpp \
-        lectura.cpp \
         main.cpp \
-        rotacionbits.cpp \
-        xor.cpp
+        menu.cpp
 
 HEADERS += \
     LZ78.h \
     RLE.h \
+    archivos.h \
     encriptacion.h \
-    escritura.h \
-    lectura.h \
-    rotacionbits.h \
-    xor.h
+    menu.h
 
 DISTFILES += \
     archivoprueba
+
+RESOURCES +=

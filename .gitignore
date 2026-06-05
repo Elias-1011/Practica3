@@ -1,0 +1,59 @@
+ORE
+# ─── Archivos generados por Qt Creator ───
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+.qmake.stash
+.qmake.cache
+ 
+# ─── Directorios de build ───
+build/
+build-*/
+debug/
+release/
+*-Debug/
+*-Release/
+ 
+# ─── Binarios compilados ───
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.exp
+ 
+# ─── Archivos de Visual Studio / MinGW ───
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcproj
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs/
+ 
+# ─── CMake (por si se usa) ───
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+ 
+# ─── Sistema operativo ───
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+# ─── Archivos de prueba generados ───
+*.txt.out
+output_*.txt
